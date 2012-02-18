@@ -15,5 +15,14 @@ class window.CoffeeCup
     for k of opts
       @options[k] = opts[k]
   
+  name: ->
+    @className = this.constructor.toString().match(/\s[^\(]*/)[0].trim() unless @className
+    @className
+  
   log: (msg) ->
-    console.log ">>> log: #{msg}" if @options.debug
+    if @options.debug
+      if typeof(msg) == 'object'
+        console.log msg
+      else
+        console.log "#{@name()}.log > #{msg}"
+  
