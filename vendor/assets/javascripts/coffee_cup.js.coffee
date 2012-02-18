@@ -1,6 +1,6 @@
 class window.CoffeeCup
   
-  default_options: 
+  default_options:
     debug: false
   
   constructor: (opts=undefined) ->
@@ -23,5 +23,5 @@ class window.CoffeeCup
     if @options.debug
       unless typeof(msg) == 'object'
         msg = "#{@name()}.log > #{msg}"
-      if window.console then window.console.log(msg) else alert(msg);
+      if window.console then window.console.log(msg) else alert(msg)
   
