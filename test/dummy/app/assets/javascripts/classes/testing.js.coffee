@@ -1,4 +1,11 @@
 class window.Testing extends CoffeeCup
   
+  default_options:
+    name: 'Frank'
+
   init: ->
-    @log 'init()'
+    # Initialize stuff here
+
+  welcome: ->
+    @log "Welcome #{@options.name}!"
+
