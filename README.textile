@@ -1,1 +1,39 @@
 CoffeeCup provides inheritable utilities for CoffeeScript classes. 
+
+h2. Usage
+
+Include CoffeeCup in your Gemfile. 
+
+<pre>
+gem "coffee_cup", '~> 0.0.1'
+</pre>
+
+Include CoffeeCup in your application.js manifest file. 
+
+<pre>
+//= require coffee_cup
+</pre>
+
+Extend CoffeeCup in your own classes.
+
+<pre>
+class window.Testing extends CoffeeCup
+
+  default_options:
+    name: 'Frank'
+
+  init: ->
+    @log "Hello #{@options.frank}"
+
+</pre>
+
+Instantiate your objects like normal. 
+
+<pre>
+$ -> 
+  
+  new Testing
+    debug: true
+    name: 'Bob'
+
+</pre>
