@@ -1,4 +1,4 @@
-CoffeeCup provides inheritable utilities for CoffeeScript classes. 
+CoffeeCup provides inheritable utilities for CoffeeScript classes under Rails 3.2 
 
 h2. Usage
 
