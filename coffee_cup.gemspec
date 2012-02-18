@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Taylor C. MacDonald"]
   s.email       = ["tcmacdonald@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{Inheritable class utilities for Coffeescript objects.}
-  s.description = %q{Inheritable class utilities for Coffeescript objects.}
+  s.summary     = %q{CoffeeCup provides inheritable utilities for CoffeeScript classes.}
+  s.description = %q{CoffeeCup provides inheritable utilities for CoffeeScript classes.}
 
   s.rubyforge_project = "coffee_cup"
 
