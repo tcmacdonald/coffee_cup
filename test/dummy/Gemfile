@@ -12,8 +12,7 @@ gem 'sqlite3'
 # in production environments by default.
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
-  gem "coffee_cup", '~> 0.0.2'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem "coffee_cup"
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer'

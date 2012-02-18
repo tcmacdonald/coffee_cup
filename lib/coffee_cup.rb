@@ -1,1 +1,4 @@
-require "coffee_cup/engine"
+require 'version'
+
+module CoffeeCup
+end
