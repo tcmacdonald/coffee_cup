@@ -5,7 +5,7 @@ h2. Usage
 Include CoffeeCup in your Gemfile. 
 
 <pre>
-gem "coffee_cup", '~> 0.0.1'
+gem "coffee_cup", '~> 0.0.2'
 </pre>
 
 Include CoffeeCup in your application.js manifest file. 
