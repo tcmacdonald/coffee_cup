@@ -21,8 +21,7 @@ class window.CoffeeCup
   
   log: (msg) ->
     if @options.debug
-      if typeof(msg) == 'object'
-        console.log msg
-      else
-        console.log "#{@name()}.log > #{msg}"
+      unless typeof(msg) == 'object'
+        msg = "#{@name()}.log > #{msg}"
+      if window.console then window.console.log(msg) else alert(msg);
   
