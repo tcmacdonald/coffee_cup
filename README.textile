@@ -1,0 +1,1 @@
+CoffeeCup provides inheritable utilities for CoffeeScript classes. 
